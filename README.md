@@ -10,7 +10,6 @@ Call by Value is safer when you want to ensure that the original data isn’t mo
 Call by Reference: In Call by Reference, instead of passing a copy of the variable, the address (or reference) of the variable is passed to the function. The function can then modify the actual value of the argument used to call the function.
 Call by Reference is more efficient for large data structures and when you need to modify the original data.
 
-# Codes 
 ## 1. Call By Value 1:
 ~~~
 //Name: Saaj Mulik
