@@ -4,8 +4,7 @@
 To study and implement Pointer Operations (Call by value and Call by reference)
 
 # Theory:
-Call by Reference: In Call by Reference, instead of passing a copy of the variable, the address (or reference) of the variable is passed to the function. The function can then modify the actual value of the argument used to call the function.
-Call by Value is safer when you want to ensure that the original data isn’t modified.
+Call by Value: In call by value, function arguments are copied into the function's parameters. Changes to these parameters do not affect the original arguments outside the function. This method ensures that the original data remains unchanged, offering safety and simplicity. However, it can be inefficient for large data structures due to the overhead of copying. Unlike call by reference, which passes references allowing direct modification of the original data, call by value only works with copies, preventing unintended side effects but limiting the ability to alter the original arguments.
 
 Call by Reference: In Call by Reference, instead of passing a copy of the variable, the address (or reference) of the variable is passed to the function. The function can then modify the actual value of the argument used to call the function.
 Call by Reference is more efficient for large data structures and when you need to modify the original data.
